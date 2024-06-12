@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+#videoBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#startMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 6px solid white;
+    padding: 50px;
+    text-align: center;
+    display: block;
+    z-index: 10;
+}
+
+#gameTitle {
+    color: blue;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+canvas {
+    display: block;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Game</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+    <video id="videoBG" autoplay muted loop>
+        <source src="Fondo%20espacial.mp4" type="video/mp4">
+        <!-- Añade más fuentes de video aquí si es necesario para una mejor compatibilidad -->
+        Tu navegador no soporta video HTML5.
+    </video>
+    <div id="startMessage">
+        <h1 id="gameTitle">SHIP ZONE</h1>
+        <p>PRECIONA ESPACIO PARA COMENZAR EL JUEGO</p>
+    </div>
+    <canvas id="spaceCanvas"></canvas>
+    <audio id="backgroundMusic" src="musifo.m4a" autoplay loop hidden></audio>
+    <audio id="shootSound" src="dis.m4a" hidden></audio>
+    <script src="juego.js"></script>
+</body>
+</html>
